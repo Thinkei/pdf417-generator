@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pdf417-generator
+  tags:
+    - external
+    - fork
+    - public
+    - javascript
+  annotations:
+    github.com/project-slug: Thinkei/pdf417-generator
+spec:
+  type: service
+  system: find-work
+  lifecycle: production
